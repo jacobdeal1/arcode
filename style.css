@@ -2,6 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 .navbar a {
@@ -141,26 +142,15 @@ body {
     border-radius: 10px;
 }
 
-.playpage{
-    background-color: #101254;
+.playpage {
+    background-color: #172130;
     color: white;
-}
-
-
-
-
-
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
 }
 
 .hero {
     height: 100%;
     width: 100%;
-    background-color: #4d8cc6;
+    background-color: #172130;
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -176,21 +166,22 @@ body {
     padding: 5px;
     overflow: hidden;
     border-radius: 10px;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 5px;
 }
 
 .button-box {
     width: 220px;
     margin: 35px auto;
     position: relative;
-    
 }
 
 button {
     color: #fff;
 }
 
-body > div > div > div.button-box > button.toggle-button.login {
-    /* .toggle-button.login { */
+button.toggle-button.login {
     padding: 10px 30px !important;
     cursor: pointer;
     background: transparent;
@@ -200,8 +191,7 @@ body > div > div > div.button-box > button.toggle-button.login {
     line-height: 18px;
 }
 
-body > div > div > div.button-box > button.toggle-button.register {
-    /* .toggle-button.register { */
+button.toggle-button.register {
     padding: 10px 30px !important;
     cursor: pointer;
     background: transparent;
@@ -217,20 +207,9 @@ body > div > div > div.button-box > button.toggle-button.register {
     position: absolute;
     width: 110px;
     height: 100%;
-    background-color: #4d8cc6;
+    background-color: #172130;
     border-radius: 30px;
-    transition: .5s;
-}
-
-/* class=btn disabled */
-.form .input_wrap .btn.disabled{
-	background: #727272;
-}
-
-/* class=btn enabled */
-.form .input_wrap .btn.enabled{
-	background: #1dbf73;
-	cursor: pointer;
+    transition: 0.5s;
 }
 
 .social-icons {
@@ -250,7 +229,7 @@ body > div > div > div.button-box > button.toggle-button.register {
     top: 180px;
     position: absolute;
     width: 280px;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .input-field.success {
@@ -283,13 +262,13 @@ body > div > div > div.button-box > button.toggle-button.register {
     cursor: pointer;
     display: block;
     margin: 5px;
-    background-color: #4d8cc6;
+    background-color: #172130;
     border: 0;
     outline: none;
     border-radius: 30px;
     position: relative;
     line-height: 20px;
-    top: 10px;  /* move down 45px from relative pos*/
+    top: 10px;
 }
 
 .submit-log-btn.disabled {
@@ -298,12 +277,12 @@ body > div > div > div.button-box > button.toggle-button.register {
     cursor: pointer;
     display: block;
     margin: auto;
-    background-color: #4d8cc6;
+    background-color: #172130;
     border: 0;
     outline: not-allowed;
     border-radius: 30px;
     position: relative;
-    top: 20px;  /* move down 45px from relative pos*/
+    top: 20px;
 }
 
 .submit-reg-btn.enabled {
@@ -312,13 +291,13 @@ body > div > div > div.button-box > button.toggle-button.register {
     cursor: pointer;
     display: block;
     margin: auto;
-    background-color: #4d8cc6;
+    background-color: #172130;
     border: 0;
     outline: none;
     border-radius: 30px;
     position: relative;
     line-height: 20px;
-    top: 15px;  /* move down 45px from relative pos*/
+    top: 15px;
 }
 
 .submit-reg-btn.disabled {
@@ -327,24 +306,22 @@ body > div > div > div.button-box > button.toggle-button.register {
     cursor: pointer;
     display: block;
     margin: auto;
-    background-color: #4d8cc6;
+    background-color: #172130;
     border: 0;
     outline: none;
     border-radius: 30px;
     position: relative;
-    top: 20px;  /* move down 45px from relative pos*/
+    top: 20px;
 }
 
 .check-box {
     margin: 20px 10px 30px 0;
 }
 
-/* #login > span:nth-child(4) { */
- span {
+span {
     color: #777;
     font-size: 13px;
     position: relative;
-    /*  margin-top: 18px;64px down, similar to margin-top */
 }
 
 #login {
@@ -355,16 +332,14 @@ body > div > div > div.button-box > button.toggle-button.register {
     left: 450px;
 }
 
-#error_msg_login{
-	color: #f74040;
-    display: none; /* normally hidden */
-   
-    bottom: 10px; /* 45px down */
+#error_msg_login {
+    color: #f74040;
+    display: none;
+    bottom: 10px;
 }
 
-#error_msg_register{
-	color: #f74040;
-    display: none; /* normally hidden */
-
-    bottom: 10px; /* 45px down */
+#error_msg_register {
+    color: #f74040;
+    display: none;
+    bottom: 10px;
 }
