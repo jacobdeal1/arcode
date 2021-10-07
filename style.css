@@ -34,6 +34,7 @@ body {
     margin-top: -25px;
     height: 80px;
     background-color: lightgray;
+    
 }
 
 .underline {
@@ -147,6 +148,14 @@ body {
     color: white;
 }
 
+.loginpage{
+    overflow: hidden;
+}
+
+.sharepage{
+    background-color: #172130;
+}
+
 .hero {
     height: 100%;
     width: 100%;
@@ -162,6 +171,7 @@ body {
     height: 480px;
     position: relative;
     margin: 3% auto;
+    margin-top: 8%;
     background: #fff;
     padding: 5px;
     overflow: hidden;
@@ -199,6 +209,7 @@ button.toggle-button.register {
     outline: none;
     position: relative;
     line-height: 18px;
+    
 }
 
 #btn {
@@ -343,3 +354,28 @@ span {
     display: none;
     bottom: 10px;
 }
+
+.gotw{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.gotwleft{
+    
+}
+
+.gotwright{
+    margin-left: 12%;
+}
+
+#gotwimg{
+    height: 400px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+
+

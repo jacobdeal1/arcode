@@ -31,7 +31,7 @@ function register() {
     login_form.style.left = "-400px";
     register_form.style.left = "50px";
     submit_reg_btn.style.left = "0px";
-    btn.style.left = "110px";
+    btn.style.left = "103px";
     toggle_btn_login.style.color = "black";
     toggle_btn_register.style.color = "white";
 }
@@ -39,7 +39,7 @@ function login() {
     login_form.style.left = "50px";
     register_form.style.left = "450px";
     submit_log_btn.style.left = "0px";
-    btn.style.left = "0";
+    btn.style.left = "-5px";
     toggle_btn_register.style.color = "black";
     toggle_btn_login.style.color = "white";
 }
@@ -169,3 +169,4 @@ function isValidEmail(email) {
 	var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
 }
+
