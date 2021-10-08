@@ -23,12 +23,35 @@
         </div>
         <div>
             <div class="sharehead">
-                <h1>Share Your Game</h1>
+                <h1 class="shareheadtext">Share Your Game</h1>
             </div>
-            <div>
-                <h1>Paste the link for your github repository below</h1>
-                <input type="text" placeholder="git@github.com:..." required />
-                <button type="submit">Share</button>
+            <div class="shareblock">
+                <h1 class="sharemsg">
+                    Fill out the form below to have your game reviewed
+                </h1>
+                <div class="sharefirstrow">
+                    <div class="sharepair">
+                        <span class="shareform">GitHub Repo:</span>
+                        <input
+                            class="sharebox"
+                            type="text"
+                            placeholder="git@github.com:username/repo"
+                            required
+                        />
+                    </div>
+                    <div class="sharepair">
+                        <span class="shareform">Game:</span>
+                        <input
+                            class="namebox"
+                            type="text"
+                            placeholder="`Example Game`"
+                            required
+                        />
+                    </div>
+                </div>
+                <div class="centerbtn">
+                    <button class="sharebtn" type="submit">Share</button>
+                </div>
             </div>
         </div>
     </body>
