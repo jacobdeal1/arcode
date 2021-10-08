@@ -140,6 +140,15 @@ body {
     width: 300px;
     height: auto;
     border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.thumb:hover{
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
 }
 
 .playpage {
@@ -372,6 +381,15 @@ span {
     height: 400px;
     width: fit-content;
     border-radius: 10px;
+    border-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#gotwimg:hover{
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
 }
 
 .sharehead {
